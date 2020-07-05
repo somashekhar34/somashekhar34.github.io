@@ -20,11 +20,17 @@
   </header>
   <section>
     <p>This video uses the following <a href="./MIB2-subtitles-pt-BR.vtt" target="_blank">WebVTT file</a>.</p>
-    <video width="600" height="400" controls>
-      <source src="./MIB2.mp4" type="video/mp4">
+<video
+  class="video-js"
+  controls
+  preload="auto"
+  width="640"
+  height="264"
+  data-setup='{}'>
+  <source src="./MIB2.mp4" type="video/mp4">
       <source src="./MIB2.webm" type="video/webm">
       <track label="pt" kind="subtitles" srclang="pt" src="./MIB2-subtitles-pt-BR.vtt" default />
-    </video>
+</video>
   </section>
   <footer>
     <p>by <a href="https://github.com/brenopolanski/html5-video-webvtt-example" target="_blank">Breno Polanski</a></p>
